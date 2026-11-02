@@ -1,0 +1,76 @@
+body{
+    background-image: url(purple-lily-dark-3840x2160-12092.jpg);
+    background-size: 115%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px solid rgba(216,160,189);
+    background-color: rgb(248, 220, 223);
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.92;
+    backdrop-filter: blur(10px);
+}
+.text{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: rgb(81, 36, 61);
+}
+#desc{
+    font-size: 11.9px;
+    margin-bottom: 60px;
+}
+.inputbox{
+    border: 1.5px solid rgba(216,160,189);
+    padding: 8px 10px;
+    margin: 6px 6px;
+    width: 250px;
+    border-radius: 8px;
+    background: transparent;
+    color:rgb(81, 36, 61) ;
+    font-family: Arial;
+    outline: none;
+}
+.inputbox::placeholder{
+    color:rgb(81, 36, 61);
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.submitbutton{
+    padding: 6px 10px;
+    width: 269px;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: rgb(232, 67, 147);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(232, 67, 147);
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    
+}
+.submitbutton:hover{
+    background-color: transparent;
+    color:rgb(232, 67, 147) ;
+    border:1px solid rgb(232, 67, 147);
+}
+.submitbutton:active{
+    transform: scale(0.95);
+    
+}
