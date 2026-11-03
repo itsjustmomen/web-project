@@ -82,6 +82,13 @@ body{
 .maincontent hr{
     width: 80%;
 }
+#card1{
+    margin-left: 100px;
+    width: 12%;
+}
+#card3{
+    width: 30%;
+}
 .cardcontent{
     display: flex;
     align-items: center;
