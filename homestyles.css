@@ -48,6 +48,11 @@ body{
 .navlinks a:active{
     transform: scale(0.9);
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main{
     display: flex;
     align-items: center;
@@ -77,6 +82,11 @@ body{
 .maincontent hr{
     width: 80%;
 }
+.cardcontent{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
 #button{
     background-color: rgb(0,71,171);
     color: white;
@@ -98,6 +108,25 @@ body{
 }
 #button:active{
     transform: scale(0.9);
+}
+.cardbutton{
+    margin: auto;
+}
+.image{
+    width: 10%;
+    padding: 30px 30px;
+    background-color: rgb(247, 245 ,255);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 80px;
+}
+#image{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 10px;
 }
 .footer{
     background:linear-gradient(115deg, rgb(234, 245, 255) 0%, rgb(217, 240, 255) 35%, rgb(200 ,182, 255) 75%, rgb(230, 222, 255) 100%);
