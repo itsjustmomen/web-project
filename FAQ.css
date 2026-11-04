@@ -64,7 +64,7 @@ body{
     font-size: 20px;
     width: 50%;
     border-radius: 40px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     transition: all 0.3s ease;
 }
 .main:hover{
