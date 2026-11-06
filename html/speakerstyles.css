@@ -104,7 +104,6 @@ li {
 }
 
 /* Footer */
-
 .footer {
     background-color: #171717;
     color: white;
@@ -163,7 +162,6 @@ li {
 }
 
 /* Responsive Design */
-
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -196,6 +194,10 @@ li {
         flex-direction: column;
     }
 
+    #left {
+        width: 100%;
+    }
+}
     #left {
         width: 100%;
     }
