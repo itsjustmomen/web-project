@@ -1,5 +1,4 @@
 
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation Bar */
 .navbar {
     background-color: #171717;
     display: flex;
@@ -43,7 +41,6 @@ body {
     color: #c49a55;
 }
 
-/* Main Content */
 .container {
     width: 85%;
     margin: auto;
@@ -103,7 +100,6 @@ li {
     margin-bottom: 5px;
 }
 
-/* Footer */
 .footer {
     background-color: #171717;
     color: white;
@@ -161,7 +157,6 @@ li {
     margin-bottom: 5px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
