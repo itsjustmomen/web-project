@@ -103,7 +103,6 @@ li {
     margin-bottom: 5px;
 }
 
-/* Footer */
 .footer {
     background-color: #171717;
     color: white;
@@ -118,23 +117,23 @@ li {
     gap: 40px;
 }
 
-#left {
+.footer-left {
     width: 50%;
 }
 
-#left #logo {
+.footer-left .logo {
     color: #c49a55;
     margin-bottom: 10px;
 }
 
-#middle,
-#right {
+.footer-middle,
+.footer-right {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#company {
+.footer h3 {
     color: #c49a55;
     font-size: 18px;
     font-weight: bold;
@@ -154,6 +153,7 @@ li {
 .footer hr {
     border: none;
     border-top: 1px solid #555;
+    margin: 20px 0; 
 }
 
 .footer > p {
@@ -161,7 +161,6 @@ li {
     margin-bottom: 5px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -194,11 +193,7 @@ li {
         flex-direction: column;
     }
 
-    #left {
-        width: 100%;
-    }
-}
-    #left {
+    .footer-left {
         width: 100%;
     }
 }
