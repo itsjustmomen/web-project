@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color: #24212b;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f3f0f7 url("../images/6b952fb3c03b2e4cf2be1beea0a5b5b1.jpg") center / cover fixed no-repeat;
+}
+.turntable-page main .container {
+    max-width: 900px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.turntable-page .navlinks a[aria-current="page"] {
+    color: #684b89;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.turntable-page #description {
+    max-width: 700px;
+    font-size: 1.05rem;
+}
+.turntable-page .detail-image {
+    width: min(100%, 720px);
+    max-height: 460px;
+    padding: 12px;
+    border: 1px solid #e4deea;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(35, 25, 50, 0.12);
+}
+.turntable-page main h2 {
+    margin-top: 36px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d8cce8;
+}
+.turntable-page main h3 {
+    margin: 24px 0 6px;
+    color: #684b89;
+    font-size: 1.15rem;
+}
+.turntable-page main p,
+.turntable-page main li {
+    color: #514c59;
+}
+.turntable-page main ul {
+    padding: 18px 24px 18px 44px;
+    border: 1px solid #e4deea;
+    border-radius: 12px;
+    background: rgba(247, 243, 251, 0.8);
+}
+.turntable-page main li + li {
+    margin-top: 8px;
+}
+.turntable-page main .container {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+.turntable-page main ul {
+        padding-left: 32px;
+    }
