@@ -9,27 +9,47 @@ body {
     color: #222;
 }
 
-.navbar {
-    background-color: #111;
-    color: white;
+.navbar{
+    background:linear-gradient(115deg, rgb(234, 245, 255) 0%, rgb(217, 240, 255) 35%, rgb(200 ,182, 255) 75%, rgb(230, 222, 255) 100%);
+    border: 2px solid rgb(169,216,245);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 15px 25px;
+    border-radius: 70px;
+    margin: 20px auto;
+    width: 85%;
+    opacity: 0.95;
+    backdrop-filter: blur(20px);
+    top: 0;
+    z-index: 10000;
 }
-
-.logo {
-    margin: 0;
+.logo{
+    font-family: Arial;
+    color: rgb(0, 45, 114);
+    margin-left: 10px;
 }
-
-.navlinks {
+.navlinks{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    margin-right: 10px;
 }
-
-.navlinks a {
-    color: white;
+.navlinks a{
     text-decoration: none;
+    color: rgb(0,71,171);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.navlinks a:hover{
+    font-size: 40px;
+    color: rgb(112,184,232) ;
+    text-decoration: underline;
+}
+.navlinks a:active{
+    transform: scale(0.9);
 }
 
 .container {
@@ -91,29 +111,72 @@ h2 {
     color: inherit;
 }
 
-.footer {
-    background-color: #111;
-    color: white;
-    margin-top: 50px;
-    padding: 30px;
-    text-align: center;
+.footer{
+    background:linear-gradient(115deg, rgb(234, 245, 255) 0%, rgb(217, 240, 255) 35%, rgb(200 ,182, 255) 75%, rgb(230, 222, 255) 100%);
+    border: 2px solid rgb(169,216,245);
+    position: static;
+    bottom: 0;
+    width: 89%;
+    padding: 100px 100px;
+    opacity: 0.95;
+    backdrop-filter: blur(100px);
 }
-
-.footer .container {
+.container{
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
-    text-align: left;
-    gap: 30px;
+    align-items: flex-start;
+    gap: 40px;
+    width:100%;
 }
-
-#middle,
-#right {
+#left{
     display: flex;
     flex-direction: column;
+    flex: 1;
+    margin-right: 400px;
+    align-items: flex-start;
+}
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+    flex: 1;
+    gap: 30px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+    flex: 1;
     gap: 10px;
 }
-
-.footer a {
-    color: white;
+#logo{
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(0, 45, 114);
+}
+#company{
+    font-size: 22px;
+    font-weight: 700;
     text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 4px 4px;
+}
+a, p{
+    text-decoration: none;
+    color: rgb(0,71,171);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial;
+    transition: all 0.4s ease;
+}
+a:hover{
+    color: rgb(112,184,232);
+    font-size: 36px;
+    text-decoration: underline;
 }

@@ -8,38 +8,47 @@ body {
     line-height: 1.6;
     background: #f3f0f7 url("../images/6b952fb3c03b2e4cf2be1beea0a5b5b1.jpg") center / cover fixed no-repeat;
 }
-.navbar {
-    width: min(1100px, calc(100% - 32px));
-    margin: 20px auto;
-    padding: 14px 28px;
+.navbar{
+    background:linear-gradient(115deg, rgb(234, 245, 255) 0%, rgb(217, 240, 255) 35%, rgb(200 ,182, 255) 75%, rgb(230, 222, 255) 100%);
+    border: 2px solid rgb(169,216,245);
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    border: 1px solid rgba(169, 216, 245, 0.8);
-    border-radius: 999px;
-    background: linear-gradient(115deg, rgba(234, 245, 255, 0.96), rgba(217, 240, 255, 0.96) 35%, rgba(200, 182, 255, 0.96) 75%, rgba(230, 222, 255, 0.96));
-    box-shadow: 0 8px 24px rgba(28, 22, 43, 0.12);
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 70px;
+    margin: 20px auto;
+    width: 85%;
+    opacity: 0.95;
+    backdrop-filter: blur(20px);
+    top: 0;
+    z-index: 10000;
 }
-.logo {
-    margin: 0;
-    font-size: 1.6rem;
+.logo{
+    font-family: Arial;
+    color: rgb(0, 45, 114);
+    margin-left: 10px;
 }
-.navlinks {
+.navlinks{
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px 22px;
+    gap: 30px;
+    margin-right: 10px;
 }
-.navlinks a {
-    color: #29233a;
-    font-weight: 600;
+.navlinks a{
     text-decoration: none;
+    color: rgb(0,71,171);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
-.navlinks a:hover,
-.navlinks a:focus-visible {
-    color: #7653a6;
+.navlinks a:hover{
+    font-size: 40px;
+    color: rgb(112,184,232) ;
     text-decoration: underline;
-    text-underline-offset: 4px;
+}
+.navlinks a:active{
+    transform: scale(0.9);
 }
 .container {
     width: min(1100px, calc(100% - 32px));
@@ -55,15 +64,16 @@ main .container {
 }
 #title {
     margin: 8px 0;
-    color: #29233a;
-    font-size: clamp(2rem, 5vw, 3rem);
-    line-height: 1.15;
+    color: rgb(0,71,171);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial;
     text-align: center;
 }
 #description {
     max-width: 650px;
     margin: 0 auto 38px;
-    color: #5b5664;
+    color: rgb(0,71,171);
     text-align: center;
 }
 
@@ -86,15 +96,15 @@ main h2 {
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
     gap: 20px;
     padding: 20px;
-    border: 1px solid #d8cce8;
+    background-color: rgb(206, 229 ,243);
+    border: 1px solid rgb(217, 240, 255);
     border-radius: 14px;
-    background: rgba(247, 243, 251, 0.8);
 }
 .card {
     overflow: hidden;
     border: 1px solid #e4deea;
     border-radius: 12px;
-    background: #fff;
+    background: rgb(206, 229 ,243);
     box-shadow: 0 4px 12px rgba(35, 25, 50, 0.1);
     transition: transform 160ms ease, box-shadow 160ms ease;
 }
