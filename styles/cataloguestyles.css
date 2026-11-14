@@ -144,8 +144,8 @@ main h2 {
 .footer {
     margin-top: 48px;
     padding: 36px 0 20px;
-    color: #f8f6fb;
-    background: #211b2b;
+     color: rgb(0,71,171);
+     background:linear-gradient(115deg, rgb(234, 245, 255) 0%, rgb(217, 240, 255) 35%, rgb(200 ,182, 255) 75%, rgb(230, 222, 255) 100%);
 }
 .footer .container {
     display: grid;
@@ -158,7 +158,7 @@ main h2 {
 #left p {
     max-width: 480px;
     margin: 8px 0;
-    color: #d3ccdc;
+      color: rgb(0,71,171);
 }
 #middle,
 #right {
@@ -171,19 +171,9 @@ main h2 {
     margin-bottom: 4px;
     font-weight: 700;
 }
-.footer a {
-    color: #e7dafa;
-    text-decoration: none;
-}
-.footer a:hover,
-.footer a:focus-visible {
-    color: #fff;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-}
 .footer > p {
     margin: 8px 16px;
-    color: #d3ccdc;
+    color: color: rgb(0,71,171);
     text-align: center;
 }
 .footer hr {
@@ -191,3 +181,22 @@ main h2 {
     border: 0;
     border-top: 1px solid #51475d;
 }
+
+p{
+    margin: 0;
+    padding: 4px 4px;
+}
+a, p{
+    text-decoration: none;
+    color: rgb(0,71,171);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial;
+    transition: all 0.4s ease;
+}
+a:hover{
+    color: rgb(112,184,232);
+    font-size: 36px;
+    text-decoration: underline;
+}
+
